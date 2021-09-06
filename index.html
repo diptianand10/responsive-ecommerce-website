@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+
+    <!-- Css Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!--Font awesome  -->
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Merriweather&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- header section starts  -->
+
+<header>
+
+  <div id="menu-bar" class="fas fa-bars"></div>
+
+  <a href="#" class="logo">FootWear</a>
+
+  <nav class="navbar">
+      <a href="#home" >Home</a>
+      <a href="#products">Products</a>
+      <a href="#featured">Featured</a>
+      <a href="#review">Review</a>
+      <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="icons">
+      <a href="#" class="fas fa-heart"></a>
+      <a href="#" class="fas fa-shopping-cart"></a>
+      <a href="#" class="fas fa-user"></a>
+  </div>
+
+</header>
+
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+  <div class="slide-container active">
+      <div class="slide">
+          <div class="content">
+              <span>New Arrivals</span>
+              <h3>70% OFF</h3>
+              <p>HUGE SALE</p>
+              <a href="#" class="btn">Shop Now</a>
+          </div>
+
+      </div>
+  </div>
+
+  <div class="slide-container">
+      <div class="slide">
+          <div class="content">
+              <span>Mens Collection</span>
+              <h3>50% OFF</h3>
+              <p>HUGE SALE</p>
+              <a href="#" class="btn">Shop Now</a>
+          </div>
+
+      </div>
+  </div>
+
+  <div class="slide-container">
+      <div class="slide">
+          <div class="content">
+              <span>Womens Collection</span>
+              <h3>50% OFF</h3>
+              <p>HUGE SALE</p>
+              <a href="#" class="btn">Shop Now</a>
+          </div>
+      </div>
+  </div>
+
+  <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+  <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+
+</section>
+
+ <!-- service section starts   -->
+
+<section class="service">
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-shipping-fast"></i>
+            <h3>fast delivery</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, fugit.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-undo"></i>
+            <h3>7 days replacements</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, fugit.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>24 x 7 support</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, fugit.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- products section starts  -->
+
+<section class="products" id="products">
+
+  <h1 class="heading"> latest <span>products</span> </h1>
+
+  <div class="box-container">
+
+      <div class="box">
+          <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-share"></a>
+              <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/heels1.png" alt="">
+          <div class="content">
+              <h3>Womens Sandal</h3>
+              <div class="price">$40 <span>$80</span></div>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+              </div>
+              <a href="#" class="btn">add to cart</a>
+          </div>
+      </div>
+
+      <div class="box">
+          <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-share"></a>
+              <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/shoes1.png" alt="">
+          <<div class="content">
+              <h3>Mens shoes</h3>
+              <div class="price">$40 <span>$80</span></div>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+              </div>
+              <a href="#" class="btn">add to cart</a>
+          </div>
+      </div>
+
+      <div class="box">
+          <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-share"></a>
+              <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/shoes4.png" alt="">
+          <div class="content">
+              <h3>Mens shoes</h3>
+              <div class="price">$40 <span>$80</span></div>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+              </div>
+              <a href="#" class="btn">add to cart</a>
+          </div>
+      </div>
+
+      <div class="box">
+          <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-share"></a>
+              <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/heels4.png" alt="">
+          <div class="content">
+              <h3>Womens Sandal</h3>
+              <div class="price">$40 <span>$80</span></div>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+              </div>
+              <a href="#" class="btn">add to cart</a>
+          </div>
+      </div>
+
+      <div class="box">
+          <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-share"></a>
+              <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/heels3.png" alt="">
+          <div class="content">
+              <h3>Womens Sandal</h3>
+              <div class="price">$40 <span>$80</span></div>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+              </div>
+              <a href="#" class="btn">add to cart</a>
+          </div>
+      </div>
+
+      <div class="box">
+          <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-share"></a>
+              <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/shoes3.png" alt="">
+          <div class="content">
+              <h3>mens shoes</h3>
+              <div class="price">$40 <span>$80</span></div>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+              </div>
+              <a href="#" class="btn">add to cart</a>
+          </div>
+      </div>
+
+  </div>
+
+</section>
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+  <h1 class="heading"> <span>featured</span> products </h1>
+
+  <div class="row">
+      <div class="image-container">
+
+          <div class="big-image">
+              <img src="images/heels1.png" class="big-image-1" alt="">
+          </div>
+      </div>
+      <div class="content">
+          <h3>Womens sandals</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis praesentium odit voluptas illum iure libero quis fuga commodi. Autem.</p>
+          <div class="price">$30 <span>$60</span></div>
+          <a href="#" class="btn">add to cart</a>
+      </div>
+  </div>
+
+  <div class="row">
+      <div class="image-container">
+
+          <div class="big-image">
+              <img src="images/shoes5.png" class="big-image-2" alt="">
+          </div>
+      </div>
+      <div class="content">
+          <h3>mens shoes</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis praesentium odit voluptas illum iure libero quis fuga commodi. Autem.</p>
+          <div class="price">$30 <span>$60</span></div>
+          <a href="#" class="btn">add to cart</a>
+      </div>
+  </div>
+
+  <div class="row">
+      <div class="image-container">
+         
+          <div class="big-image">
+              <img src="images/shoes6.png" class="big-image-3" alt="">
+          </div>
+      </div>
+      <div class="content">
+          <h3>mens shoes</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis praesentium odit voluptas illum iure libero quis fuga commodi. Autem.</p>
+          <div class="price">$30 <span>$60</span></div>
+          <a href="#" class="btn">add to cart</a>
+      </div>
+  </div>
+
+</section>
+
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+  <h1 class="heading"> customer's <span>review</span> </h1>
+
+  <div class="box-container">
+
+      <div class="box">
+          <img src="images/review1.jpeg" alt="">
+          <h3>Angelina </h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quos eum. Laborum aut a consequatur ducimus, molestias possimus quisquam rerum temporibus ipsum voluptate accusamus, unde ab asperiores? Exercitationem, unde rem.</p>
+
+      </div>
+
+      <div class="box">
+          <img src="images/review2.jpeg" alt="">
+          <h3>Robert</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quos eum. Laborum aut a consequatur ducimus, molestias possimus quisquam rerum temporibus ipsum voluptate accusamus, unde ab asperiores? Exercitationem, unde rem.</p>
+
+      </div>
+
+      <div class="box">
+          <img src="images/review3.png" alt="">
+          <h3>Jack</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quos eum. Laborum aut a consequatur ducimus, molestias possimus quisquam rerum temporibus ipsum voluptate accusamus, unde ab asperiores? Exercitationem, unde rem.</p>
+
+      </div>
+
+  </div>
+
+</section>
+
+
+<!-- order section -->
+
+<section class="contact" id="contact">
+
+  <h1 class="heading"><span>Contact</span> Us </h1>
+  
+  <div class="row">
+  
+      <form action="">
+          <input type="text" placeholder="Name" class="box">
+          <input type="email" placeholder="Email" class="box">
+          <input type="phone" placeholder="Phone Number" class="box">
+          <input type="password" placeholder="Password" class="box">
+          <textarea name="" id="" cols="30" rows="10" class="box address" placeholder="Address"></textarea>
+          <input type="submit" value="Contact us" class="btn">
+      </form>
+  
+      <div class="image"">
+          <img src="images/contact-bg.jpg" alt="">
+      </div>
+  
+  </div>
+  
+  </section>
+
+
+<!-- newsletter section starts  -->
+
+<section class="newsletter">
+
+    <div class="content">
+        <h3>newsletter</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum ullam veniam at itaque culpa hic corporis saepe dicta doloremque nihil.</p>
+        <form action="">
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="submit" value="send" class="btn">
+        </form>
+    </div>
+  
+  </section>
+
+<!-- footer section  -->
+
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Our stores</h3>
+          <a href="#">India</a>
+          <a href="#">South Korea</a>
+          <a href="#">Japan</a>
+          <a href="#">Paris</a>
+      </div>
+
+      <div class="box">
+          <h3>Quick links</h3>
+          <a href="#">home</a>
+          <a href="#">products</a>
+          <a href="#">featured</a>
+          <a href="#">review</a>
+          <a href="#">contact</a>
+      </div>
+
+      <div class="box">
+          <h3>Help</h3>
+          <a href="#">Track Order</a>
+          <a href="#">Returns</a>
+          <a href="#">Shipping</a>
+          <a href="#">FAQs</a>
+      </div>
+
+      <div class="box">
+          <h3>follow us</h3>
+          <a href="#">facebook</a>
+          <a href="#">twitter</a>
+          <a href="#">instagram</a>
+          <a href="#">whatsapp</a>
+      </div>
+
+      <div class="credit">©<span> 2020-21 </span></div>
+
+  </div>
+
+</section>
+
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+
+</body>
+</html>
